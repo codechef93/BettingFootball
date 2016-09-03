@@ -1,0 +1,438 @@
+@media (max-width: 1700px) {
+  .service-chart-image {
+    right: -10%;
+  }
+}
+@media (max-width: 1400px) {
+  .service-chart-image {
+    right: -20%;
+  }
+}
+@media (max-width: 1199px) {
+  .navbar {
+    padding-right: 10px;
+  }
+  .banner-content-area {
+    padding: 200px 0 190px 0;
+  }
+  .banner-title {
+    font-size: 62px;
+  }
+  .banner-image-part.active .thumb-two {
+    bottom: -35%;
+    left: 10%;
+  }
+  .banner-image-part.active .thumb-four {
+    top: 2%;
+    left: 9%;
+  }
+  .video-part {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    min-height: 450px;
+  }
+  .app-content {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 73px 30px 90px 30px;
+  }
+  .step-line::before {
+    left: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .testmonial-thumb-part::before {
+    top: 4%;
+    left: -2%;
+    width: 479px;
+    height: 371px;
+  }
+  .service-chart-image,
+  .feature-section::before,
+  .feature-section::after {
+    display: none;
+  }
+  .service-section.section-padding {
+    padding-bottom: 120px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    padding-right: 0;
+  }
+  .main-menu > li.active::before, .main-menu > li:hover::before {
+    display: none;
+  }
+  .main-menu > li::before {
+    display: none;
+  }
+  .main-menu li a {
+    padding: 8px 15px;
+    display: block;
+  }
+  .main-menu > li+li > a {
+    border-top: 1px solid rgba(255, 255, 255, 0.09);
+  }
+  .navbar-collapse {
+    padding: 15px 0;
+  }
+  li.menu_has_children:after {
+    top: 9px;
+  }
+  .sub-menu {
+    display: none;
+    position: initial;
+    opacity: 1;
+    visibility: visible;
+    transition: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+  }
+  .banner-bottom {
+    padding: 15px 0;
+  }
+  .banner-bottom::before {
+    left: 0;
+  }
+  .promo-video-part {
+    justify-content: center;
+  }
+  .promo-video-part .content {
+    padding-left: 0;
+    text-align: center;
+    padding-top: 15px;
+  }
+  .play-table {
+    width: 930px;
+  }
+  .play-table-part {
+    overflow-x: auto;
+  }
+  .section-padding {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .app-content {
+    padding: 73px 30px 90px 30px;;
+  }
+  .step-line::before {
+    display: none;
+  }
+  .step-item {
+    padding: 0 15px;
+  }
+  .service-section.section-padding {
+    padding-bottom: 90px;
+  }
+  .testimonial-section .row div[class*="col"]:last-child {
+    order: -1;
+  }
+  .testmonial-thumb-part {
+    margin-bottom: 45px;
+    text-align: center;
+  }
+  .testmonial-thumb {
+    display: inline-block;
+  }
+  .testmonial-thumb-part::before {
+    top: 10%;
+    left: 12%;
+    width: 508px;
+    height: 402px;
+  }
+  .testimonial-slider-arrows {
+    left: 0;
+  }
+  .testimonial-section {
+    padding-bottom: 140px;
+  }
+  .play-butlar-slider-arrows {
+    bottom: 75px;
+  }
+  .footer-widget {
+    margin-bottom: 30px;
+  }
+  .footer-top {
+    padding-bottom: 70px;
+  }
+  .breadcum-area {
+    padding: 80px 0;
+  }
+  .promotion-block-thumb {
+    margin-top: 45px;
+  }
+  .promotion-thumb.m-top {
+    margin-top: 45px;
+  }
+  .statistics-table-result-part .nav a i {
+    font-size: 32px;
+  }
+  .league-result-area-inner {
+    width: 930px;
+  }
+  .league-result-area {
+    overflow: auto;
+  }
+  .faq-section .row div[class*="col"]+div[class*="col"] {
+    margin-top: 30px;
+  }
+  .error-section {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+  .sidebar {
+    margin-top: 50px;
+  }
+  .place-bet-section .card-body {
+    overflow: auto;
+  }
+  .place-bet-section .statistics-result-table {
+    width: 725px;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner-image-part {
+    display: none;
+  }
+  .banner-content-area {
+    padding: 130px 0 145px 0;
+  }
+  .banner-title {
+    font-size: 56px;
+  }
+  .banner-bottom {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .banner-bottom .thumb {
+    margin-bottom: 20px;
+  }
+  .promo-video-part {
+    margin-bottom: 30px;
+  }
+  h2, h2>a {
+    font-size: 42px;
+  }
+  .app-content .content {
+    order: 1;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-top: 45px;
+    text-align: center;
+  }
+  .app-content .thumb {
+    order: -1;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .app-features-list {
+    display: inline-block;
+    text-align: left;
+  }
+  .step-item {
+    margin-bottom: 30px;
+  }
+  .step-section {
+    padding-bottom: 65px;
+  }
+  .testmonial-thumb-part::before {
+    left: 0;
+  }
+  .subscribe-form .subs-email {
+    width: 100%;
+  }
+  .subscribe-form .sub-btn {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .statistics-result-area .result-single .details,
+  .statistics-result-area .result-single .team-area,
+  .statistics-team-area,
+  .statistics-result-area {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .statistics-result-area .result-single .team-area {
+    margin-top: 15px;
+  }
+  .statistics-result-area {
+    padding-left: 0;
+    margin-top: 45px;
+  }
+  .about-thumb {
+    text-align: center;
+  }
+  .about-content {
+    text-align: center;
+    margin-top: 45px;
+  }
+  .counter-item {
+    margin: 15px 0;
+  }
+  .counter-section {
+    padding: 75px 0;
+  }
+  .cmn-accordion .card-body {
+    padding: 0 30px 20px 30px;
+  }
+  .promo-video-part .content {
+    padding-left: 15px;
+    padding-top: 0;
+    text-align: left;
+  }
+  .online-play-tab-part .nav a i {
+    font-size: 30px;
+  }
+  .online-play-tab-part .nav a span {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575px) {
+  .online-play-tab-part .nav a i {
+    font-size: 24px;
+  }
+  .online-play-tab-part .nav a span {
+    margin-top: 0;
+  }
+  .testmonial-thumb-part::before {
+    display: none;
+  }
+  .result-item .result-details {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    order: -3;
+    padding-bottom: 15px;
+  }
+  .result-item .team--left, .result-item .team--right {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .result-item .team--left {
+    justify-content: flex-end;
+    padding-right: 15px;
+  }
+  .result-item .team--right {
+    justify-content: flex-start;
+    padding-left: 15px;
+  }
+  .result-item {
+    padding: 20px 15px;
+  }
+  .post-tags,
+  .meta-share {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .meta-share {
+    margin-top: 15px;
+  }
+  .single-comment-wrap .content {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 0;
+    padding-top: 15px;
+  }
+  .single-comment-wrap .content p {
+    margin-top: 5px;
+  }
+  .bet-accuracy {
+    margin-top: 50px;
+  }
+  .card-header .btn-link {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 440px) {
+  .banner-title {
+    font-size: 46px;
+  }
+  .promo-video-part .content {
+    padding-left: 15px;
+  }
+  .promotion-thumb .promotion-content .title a {
+    font-size: 24px;
+  }
+  .promotion-thumb .promotion-content {
+    padding: 30px 30px;
+  }
+  .user-details {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .user-statusa-area {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 45px;
+  }
+}
+
+@media (max-width: 400px) {
+  .service-item {
+    justify-content: center;
+  }
+  .service-item .content {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 0;
+    text-align: center;
+    padding-top: 15px;
+  }
+  .cmn-btn {
+    padding: 10px 15px;
+  }
+  .btn-lg {
+    min-width: 150px;
+  }
+  .section-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .service-section.section-padding {
+    padding-bottom: 50px;
+  }
+  .testimonial-section {
+    padding-bottom: 135px;
+  }
+  .step-section {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 320px) {
+  .banner-title {
+    font-size: 42px;
+  }
+  .banner-content-area {
+    padding: 100px 0;
+  }
+  h2, h2>a {
+    font-size: 32px;
+  }
+  .result-item .team .flag {
+    display: none;
+  }
+  .play-butlar-slider-arrows {
+    bottom: 55px;
+  }
+}
